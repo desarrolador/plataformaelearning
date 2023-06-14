@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>elearnig room</title>
-    <link rel="stylesheet" href="fontawesome.com/icons/google?f=brands&s=solid">
+    <script src="https://kit.fontawesome.com/3bff82bdac.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="javascript/index.js">
     <link rel="stylesheet" href="javascript/json.js">
-    
-    
+    <title>elearnig room</title>
 </head>
 <body>
+    <!--cabezera de la pagina-->
     <header id="menu">
         <div class="menu-container">
+            <!--cabezera de la pagina con nav osea menu en caja div-->
             <nav class="menu 1">
                 <a href="contact">contact</a> 
                 
@@ -21,6 +21,7 @@
                     aqui podes saber sobre nosotros
                 </p>
             </nav>
+            <!--segundo nava osea ,segundo menu en caja div-->
             <div class="segundo menu">
                 <nav class="segundo-menu menu ">
                     <a href="teachers">teachers</a>
@@ -30,6 +31,7 @@
                     </p>
                 </nav>
             </div>
+            <!--tercer nav,tercer menu en caja div-->
             <div class="tercer menu">
                 <nav class="tercer-menu menu">
                     <a href="sing up">sing up</a>
@@ -40,6 +42,7 @@
 
                 </nav>
             </div>
+            <!--cuarto nava ,cuarto menu con caja div-->
             <div class="cuarto menu">
                 <nav class="cuarto-menu menu">
                     <a href="sing in">sing in</a>
@@ -50,30 +53,49 @@
 
                 </nav>
              </div>
+             <!--caja div con imagen 1-->
              <div class="img 1">
                 <img src="images\images 1.jpg" alt="">
             </div>
         </div>
     </header>
+    <!--aqui termina la cabezera-->
+    <!-- empieza una section con una caja div adentro y su imagen 2-->
     <section class="section 1">
     <div class="img 2">
-        <img src="images\mujer-joven-ensenando-ninos-clase-ingles.webp" alt="">
-        
+        <img src="images\mujer-joven-ensenando-ninos-clase-ingles.webp" alt="profesora enseñando"
+        width="300px">
+        <!--a la imagen 2 se le agrega un aside ,costado, para hacer un juego de flex box-->
+        <aside class="flex">
         <article class="article 1">
             <a href="start with the classroom">empezar con la clase</a>
         </article>
+    </aside>
     </div>
 </section>
-<div><!--mejororar los icons y luego sofisticar el pre y pie de pagina en html-->
-    <a href="font awesome/fa-google"></a>
-    <button class="fa-brands fa-google"></button>
+<div><!--antes del footer ,pie de pagina se pudo crear botones con font awesomes o iconos dentro de divs o cajas-->
+    <button><i class="fa-brands fa-linkedin"></i></button> 
 </div>
 <div>
-    <i class="fa-brands fa-twitter"></i>
+  <button><i class="fa-brands fa-twitter"></i></button>
 </div>
-
-
-
-    
+<div>
+   <button><i class="fa-solid fa-user"></i></button>
+</div>
+<div>
+    <button><i class="fa-solid fa-comment"></i></button>
+</div>
+<!--se crea un main con una section y un footer dentro o pie de pagina con sus detalles-->
+<main>
+    <section>
+        <footer>
+           &copy;buenos aires ,argentina
+            <br>
+           this platform was created with the intention that
+           the teachers from all around the world can enjoy
+           their classes with the students
+        </footer>
+    </section>
+</main>
 </body>
 </html>
