@@ -1,0 +1,62 @@
+*{
+    
+    background-color: cadetblue;
+}
+
+#menu-logo{
+
+}
+
+.contacto{
+    font-family: cursive;
+    font-size: larger;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: antiquewhite;
+    cursor: pointer;
+    
+}
+
+.teachers{
+
+    font-family: cursive;
+    font-size: larger;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: antiquewhite;
+    cursor: pointer;
+    
+}
+
+.singup{
+    
+    font-family: cursive;
+    font-size: larger;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: antiquewhite;
+    cursor: pointer;
+    display: inline-flexbox; 
+
+}
+
+
+.singin{
+   
+    font-family: cursive;
+    font-size: larger;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: antiquewhite;
+    cursor: pointer;
+    
+}
+
+.menu-container{
+ 
+    display: flexbox;
+}
