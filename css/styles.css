@@ -15,6 +15,7 @@
     text-decoration: none;
     color: antiquewhite;
     cursor: pointer;
+    display: block;
     
 }
 
@@ -27,6 +28,7 @@
     text-decoration: none;
     color: antiquewhite;
     cursor: pointer;
+    display: block;
     
 }
 
@@ -39,7 +41,7 @@
     text-decoration: none;
     color: antiquewhite;
     cursor: pointer;
-    display: inline-flexbox; 
+    display: block; 
 
 }
 
@@ -53,10 +55,65 @@
     text-decoration: none;
     color: antiquewhite;
     cursor: pointer;
+    display: block;
     
 }
 
-.menu-container{
- 
-    display: flexbox;
+.parrafo{
+
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #f0ffff;
 }
+
+.img1{
+     width: 500px;
+     display: flex;
+     border-radius: 10px 20px 20px 10px;
+     background-blend-mode: multiply;
+     background-repeat: repeat-x;
+
+}
+
+.section1.img2{
+
+   margin: 100px;
+   padding: 10px;
+   border: 1px solid black;
+   border-radius: 10px 20px 20px 10px;
+   background-blend-mode: luminosity;
+   background-repeat: no-repeat;
+ 
+}
+
+.parrafo2{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    
+}
+
+.enlace{
+    margin: 30px;
+    margin-bottom: 20px;
+    font-family: fantasy;
+    font-size: larger;
+    text-align: left;
+    text-transform: uppercase;
+    color: darkblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
