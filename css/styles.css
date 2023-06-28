@@ -15,7 +15,7 @@
     text-decoration: none;
     color: antiquewhite;
     cursor: pointer;
-    display: block;
+   
     
 }
 
@@ -28,8 +28,7 @@
     text-decoration: none;
     color: antiquewhite;
     cursor: pointer;
-    display: block;
-    
+      
 }
 
 .singup{
@@ -41,7 +40,7 @@
     text-decoration: none;
     color: antiquewhite;
     cursor: pointer;
-    display: block; 
+     
 
 }
 
@@ -55,31 +54,45 @@
     text-decoration: none;
     color: antiquewhite;
     cursor: pointer;
-    display: block;
+    
+    
+}
+
+.menucontainer {
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    align-content: flex-end;
     
 }
 
 .parrafo{
-
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
+    
+    margin : 60px;
+    padding : 20px;
+    border: 3px solid white;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     color: #f0ffff;
+    text-align: center;
+    border-radius: 10px;
+
+    
 }
 
 .img1{
-     width: 500px;
-     display: flex;
-     border-radius: 10px 20px 20px 10px;
+     width: 400px;
+     margin: 100px;
      background-blend-mode: multiply;
-     background-repeat: repeat-x;
+     backface-visibility: visible;
+     background-repeat: no-repeat;
 
 }
 
-.section1.img2{
-
+.section{
+   width: 400px;
    margin: 100px;
    padding: 10px;
    border: 1px solid black;
@@ -111,9 +124,70 @@
     cursor: pointer;
 }
 
+.fa-brands.fa-linkedin{
+
+   border: none;
+   color: white;
+   text-align: right;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 40px;
+   margin: 4px 2px;
+   border: 5px solid white;
+   cursor: pointer;
+
+    
+}
 
 
+.fa-brands.fa-twitter{
+
+border: none;
+color: white;
+text-align: right;
+text-decoration: none;
+display: inline-block;
+font-size: 40px;
+margin: 4px 2px;
+border: 5px solid white;
+cursor: pointer;
+
+}
+
+.fa-solid.fa-user{
 
 
+border: none;
+color: white;
+text-align: right;
+text-decoration: none;
+display: inline-block;
+font-size: 40px;
+margin: 4px 2px;
+border: 5px solid white;
+cursor: pointer;
 
+}
 
+.fa-solid.fa-comment{
+
+border: none;
+color: white;
+text-align: right;
+text-decoration: none;
+display: inline-block;
+font-size: 40px;
+margin: 4px 2px;
+border: 5px solid white;
+cursor: pointer;
+
+}
+
+.footer{
+
+    font-family: fantasy;
+    font-size: larger;
+    text-align: center;
+    text-decoration: underline;
+    
+}
