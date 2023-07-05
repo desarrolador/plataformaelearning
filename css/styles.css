@@ -1,5 +1,5 @@
 *{
-    
+     
     background-color: cadetblue;
 }
 
@@ -50,21 +50,20 @@
     font-family: cursive;
     font-size: larger;
     text-align: center;
-    text-transform: capitalize;
     text-decoration: none;
+    text-transform: capitalize;
     color: antiquewhite;
     cursor: pointer;
     
     
 }
 
-.menucontainer {
-    
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    text-transform: uppercase;
-    align-content: flex-end;
+.head {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-direction: column-reverse;
     
 }
 
@@ -82,13 +81,23 @@
     
 }
 
-.img1{
+.parrafo{
      width: 400px;
      margin: 100px;
      background-blend-mode: multiply;
      backface-visibility: visible;
      background-repeat: no-repeat;
 
+}
+
+.img1 {
+
+    width: 500px;
+    height: 500px;
+    background-position: 20em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .section{
@@ -183,8 +192,21 @@ cursor: pointer;
 
 }
 
-.footer{
+.btn{
 
+    margin-left: 100px;
+    padding-left: 100px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    margin:  0 5px  0 5px;
+
+
+}
+
+.footer{
+    margin: 50px;
+    padding: 50px;
     font-family: fantasy;
     font-size: larger;
     text-align: center;
