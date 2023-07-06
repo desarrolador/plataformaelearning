@@ -1,75 +1,51 @@
 *{
+    
      
-    background-color: cadetblue;
-}
-
-#menu-logo{
-
-}
-
-.contacto{
-    font-family: cursive;
-    font-size: larger;
-    text-align: center;
-    text-transform: capitalize;
-    text-decoration: none;
-    color: antiquewhite;
-    cursor: pointer;
-   
     
 }
+.logo {
+    margin-top: 30px;
+    margin-left: 10px;
+}
 
-.teachers{
-
-    font-family: cursive;
-    font-size: larger;
-    text-align: center;
-    text-transform: capitalize;
+.logo a{
     text-decoration: none;
-    color: antiquewhite;
-    cursor: pointer;
+    color: #f0ffff;
+    text-transform: uppercase;
+    font-size: 20px;
       
-}
 
-.singup{
-    
-    font-family: cursive;
-    font-size: larger;
-    text-align: center;
-    text-transform: capitalize;
-    text-decoration: none;
-    color: antiquewhite;
-    cursor: pointer;
-     
-
-}
-
-
-.singin{
-   
-    font-family: cursive;
-    font-size: larger;
-    text-align: center;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: antiquewhite;
-    cursor: pointer;
-    
-    
 }
 
 .head {
-    width: 200px;
-    height: 200px;
-    border: 1px solid #c3c3c3;
-    display: flex;
-    flex-direction: column-reverse;
-    
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 20px;
+   background: #171717;
+   width: 100%;
+   height: 100%;
+  
 }
+
+
+.navbar a {
+    display: inline-flex;
+    padding: 23px 20px;
+    color: #f0ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+
+}
+
+
 
 .parrafo{
     
-    margin : 60px;
+    margin : 20px;
     padding : 20px;
     border: 3px solid white;
     font-family: 'Times New Roman', Times, serif;
@@ -82,23 +58,18 @@
 }
 
 .parrafo{
-     width: 400px;
-     margin: 100px;
-     background-blend-mode: multiply;
-     backface-visibility: visible;
-     background-repeat: no-repeat;
-
-}
-
-.img1 {
-
-    width: 500px;
-    height: 500px;
-    background-position: 20em;
-    background-repeat: no-repeat;
-    background-size: cover;
+     width: 300px;
+     margin: 10px;
+     margin-left: 10%;
+     display: block;
+     align-items: center;
+     justify-content: left;
     
+    
+
 }
+
+
 
 .section{
    width: 400px;
@@ -136,7 +107,7 @@
 .fa-brands.fa-linkedin{
 
    border: none;
-   color: white;
+   color: black;
    text-align: right;
    text-decoration: none;
    display: inline-block;
@@ -152,7 +123,7 @@
 .fa-brands.fa-twitter{
 
 border: none;
-color: white;
+color: black;
 text-align: right;
 text-decoration: none;
 display: inline-block;
@@ -167,7 +138,7 @@ cursor: pointer;
 
 
 border: none;
-color: white;
+color: black;
 text-align: right;
 text-decoration: none;
 display: inline-block;
@@ -181,7 +152,7 @@ cursor: pointer;
 .fa-solid.fa-comment{
 
 border: none;
-color: white;
+color: black;
 text-align: right;
 text-decoration: none;
 display: inline-block;
@@ -199,6 +170,7 @@ cursor: pointer;
     justify-content: center;
     position: relative;
     display: flex;
+    justify-content: space-between;
     margin:  0 5px  0 5px;
 
 
