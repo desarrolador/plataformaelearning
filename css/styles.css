@@ -6,9 +6,10 @@ background-color: burlywood;
 
 
 
-.logo {
-    margin: 50px;
-    padding: 50px;
+.img-logo {
+    font-size: small;
+    
+    
 
 }
 
@@ -19,9 +20,9 @@ background-color: burlywood;
    display: flex;
    align-items: center;
    justify-content: space-between;
-   height: 20px;
+   height: 5px;
    width: 100%;
-   height: 100%;
+   height: 100px;
   
 }
 
@@ -39,8 +40,8 @@ background-color: burlywood;
 
 .parrafo{
     
-    margin : 20px;
-    padding : 20px;
+    margin : 10px;
+    padding : 10px;
     border: 3px solid #000000;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
