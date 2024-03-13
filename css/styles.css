@@ -50,7 +50,7 @@ background-color: burlywood;
     border-radius: 10px;
     display: inline-block;
     align-items: center;
-    justify-content: left;
+    
     
 }
 
@@ -73,6 +73,7 @@ background-color: burlywood;
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #000000;
+    
     
 }
 
@@ -159,6 +160,18 @@ cursor: pointer;
 
 
 }
+
+/* styles.css */
+.container {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.parrafo2 {
+    margin-right: 10px; /* Espacio para el párrafo al costado */
+}
+
+
 
 .footer{
     margin: 50px;
