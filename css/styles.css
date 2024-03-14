@@ -1,6 +1,6 @@
 *{
     
-background-color: burlywood;  
+background-color: rgb(224, 214, 200);  
     
 }
 
@@ -9,10 +9,15 @@ background-color: burlywood;
 .img-logo {
     font-size: larger;
     
-    
-
 }
 
+
+.titulo {
+    font-family: fantasy;
+    font-size: larger;
+    color: darkslateblue;
+    padding: 10px;
+}
 
 
 .head {
@@ -42,9 +47,9 @@ background-color: burlywood;
     
     margin : 10px;
     padding : 5px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: fantasy;
     font-size: larger;
-    color: #000000;
+    color: #7a1d63;
     text-align: center;
     border-radius: 10px;
     display: inline-block;
@@ -173,8 +178,8 @@ cursor: pointer;
 
 
 .footer{
-    margin: 50px;
-    padding: 50px;
+    margin: 20px;
+    padding: 20px;
     font-family: fantasy;
     font-size: larger;
     text-align: center;
