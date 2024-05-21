@@ -81,7 +81,7 @@ background-color: rgb(224, 214, 200);
 
 
 
-.enlace{
+  .enlace{
     margin: 30px;
     margin-bottom: 20px;
     font-family: fantasy;
@@ -93,83 +93,12 @@ background-color: rgb(224, 214, 200);
     cursor: pointer;
 }
 
-.fa-brands.fa-linkedin{
-
-   border: none;
-   color: black;
-   text-align: right;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 20px;
-   margin: 4px 2px;
-   cursor: pointer;
-
-    
-}
 
 
-.fa-brands.fa-twitter{
 
-border: none;
-color: black;
-text-align: right;
-text-decoration: none;
-display: inline-block;
-font-size: 20px;
-margin: 4px 2px;
-cursor: pointer;
-
-}
-
-.fa-solid.fa-user{
-
-
-border: none;
-color: black;
-text-align: right;
-text-decoration: none;
-display: inline-block;
-font-size: 20px;
-margin: 4px 2px;
-cursor: pointer;
-
-}
-
-.fa-solid.fa-comment{
-
-border: none;
-color: black;
-text-align: right;
-text-decoration: none;
-display: inline-block;
-font-size: 20px;
-margin: 4px 2px;
-cursor: pointer;
-
-}
-
-.btn{
-
-    margin-left: 100px;
-    padding-left: 100px;
-    justify-content: center;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    margin:  0 5px  0 5px;
-
-}
-
-.btn:hover {
-    cursor: pointer;
-    color: blue;
-}
 
 /* styles.css */
-.container {
-    display: flex;
-    align-items: center; /* Centra verticalmente los elementos */
-}
+
 
 .parrafo2 {
     margin-right: 10px; /* Espacio para el párrafo al costado */
