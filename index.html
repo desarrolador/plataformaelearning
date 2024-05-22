@@ -108,16 +108,37 @@
                 </div>
                 
              </div>
-
-     
-
-
-             <!-- agregar formulario de ingreso y registro con js-->
-<form id="signupForm" onsubmit="return validateForm()">
-    <input type="text" name="username" placeholder="Username">
-    <input type="password" name="password" placeholder="Password">
-    <button type="submit">Sign Up</button>
-</form>
+             
+             <div class="container">
+                <h2>Form of registration</h2>
+                <form id="registroForm" action="https://www.paypal.com/paypal.me/miguel52141" method="post" onsubmit="return validarFormulario()">
+                    <div class="form-group">
+                        <label for="nombre">Name:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">surname:</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <input type="hidden" name="cmd" value="_xclick">
+                    <input type="hidden" name="business" value="www.miguelrusso2840@gmail.com">
+                    <input type="hidden" name="item_name" value="http://www.languageschool.com">
+                    <input type="hidden" name="amount" value="35.00">
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="hidden" name="return" value="http://www.languageschool.com">
+                    <div class="form-group">
+                        <button type="submit">Register and pay</button>
+                    </div>
+                </form>
+            </div>
 
    
 </section>
